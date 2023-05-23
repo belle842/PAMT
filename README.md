@@ -57,8 +57,8 @@ To pre-process Flickr30k:
 3. Run the script ```flickr30k_feats.py```.
 
 #### Model training
-The code for model training is currently being organized and optimized.
+The main code for model training is currently being organized and optimized, so we have only uploaded part of the training code, and the complete code will be made public later
 
 #### Model evaluation
-We provide the trained results in the zip package, which can be used directly for testing. For MS-COCO, the trained model is ```models/transformer_ratt_hard_wholemax_unfreeze/new_smax_700_lambda_5000_epoch_15_1024_step_1```, and for Flickr30k, the trained model is ```models/flickr_ratt/smax_1000_lambda_5000_epoch_50_1024_step_1_warmup_2000```.
+We provide the trained results in the zip package, which can be used directly for testing. For MS-COCO, the trained model is ```models/coco_results```, and for Flickr30k, the trained model is ```models/flickr_results```.
 The script used for testing is ```eval.py```.
