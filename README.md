@@ -30,12 +30,8 @@ scikit-learn==1.1.3
 scipy==1.9.3
 ```
 On a common linux distribution, we can create a working environment for this project following this procedure:
-1. Create the conda environment with the provided ```environment.yml``` file:
-    ```
-    conda env create -f environment.yml
-    ```  
-2. Activate the created environment and install the necessary packages.
-3. Install nlg-eval following the instructions described 
+1. Activate the created environment and install the necessary packages.
+2. Install nlg-eval following the instructions described 
 [here](https://github.com/Maluuba/nlg-eval), i.e.:
     ```
     pip install git+https://github.com/Maluuba/nlg-eval.git@master
@@ -57,8 +53,7 @@ To pre-process Flickr30k:
 3. Run the script ```flickr30k_feats.py```.
 
 #### Model training
-The main code for model training is currently being organized and optimized, so we have only uploaded part of the training code, and the complete code will be made public later
+The main code for model training is currently being organized and optimized, so we have only uploaded part of the training code, and the complete code will be made public later.
 
 #### Model evaluation
-We provide the trained results in the zip package, which can be used directly for testing. For MS-COCO, the trained model is ```models/coco_results```, and for Flickr30k, the trained model is ```models/flickr_results```.
 The script used for testing is ```eval.py```.
